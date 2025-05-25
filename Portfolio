@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shelmith Wangui Wambui - Portfolio</title>
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f5dc; /* Beige */
+      color: #001f3f; /* Navy */
+      padding-bottom: 50px;
+    }
+
+    header {
+      background-color: #001f3f;
+      color: #f5f5dc;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      color: #f5f5dc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      border-left: 5px solid #001f3f;
+      padding-left: 10px;
+    }
+
+    section img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+      box-shadow: 0 4px 8px rgba(0, 31, 63, 0.2);
+    }
+
+    ul {
+      margin-left: 20px;
+      list-style-type: square;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    form button {
+      background-color: #001f3f;
+      color: #f5f5dc;
+      border: none;
+      padding: 12px 20px;
+      font-size: 1em;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #003366;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Shelmith Wangui Wambui</h1>
+    <p>A passionate aspiring software developer and data enthusiast.</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Home</h2>
+    <img src="https://static.vecteezy.com/system/resources/previews/020/911/900/non_2x/profile-icon-user-icon-person-icon-free-png.png" alt="Profile Image" width="200" />
+    <p>My name is Shelmith Wangui Wambui. I am a student pursuing a Diploma in Business and Information Technology at St. Paul’s University. I am enthusiastic about technology and love combining creativity with data to solve real-world problems.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I have a background in counselling psychology and information technology. I studied at Pan Africa Christian University and currently at St. Paul’s University. I am drawn to programming because it empowers me to create, analyze, and innovate. My goal is to become a software developer with a strong foundation in data analysis and application development.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>Data Entry (Excel, DOC-IT)</li>
+      <li>Graphic Design (Canva, Adobe Illustrator)</li>
+      <li>Web Development (HTML, CSS – learning)</li>
+    </ul>
+    <h3>Non-Technical Skills</h3>
+    <ul>
+      <li>Teamwork</li>
+      <li>Communication</li>
+      <li>Hardworking</li>
+      <li>Creative Thinking</li>
+      <li>Leadership (Youth Group Experience)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div>
+      <h3>Youth Poster Designs</h3>
+      <img src="https://img.freepik.com/premium-vector/flat-design-international-youth-day-poster-template_23-2149487440.jpg?w=360" alt="Youth Poster Sample">
+      <p><strong>Tools:</strong> Canva, Adobe Illustrator</p>
+      <p>Designed promotional materials such as posters and pamphlets for youth events at Blessed Sacrament Parish.</p>
+    </div>
+
+    <div>
+      <h3>School Payment Data Entry</h3>
+      <img src="https://i.ytimg.com/vi/6QsBqsfgt_4/maxresdefault.jpg" alt="Excel Data Entry Screenshot">
+      <p><strong>Tools:</strong> Microsoft Excel</p>
+      <p>Managed and organized payment records for Buruburu Girls' Secondary School with a focus on data accuracy.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
